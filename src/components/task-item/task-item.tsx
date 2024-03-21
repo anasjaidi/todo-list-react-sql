@@ -1,6 +1,9 @@
 import { useState, ChangeEvent } from 'react';
 import { Task } from '../../types';
 
+
+
+
 interface IProps {
   task: Task;
   onDelete: (id: number) => void;
